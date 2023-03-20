@@ -1,0 +1,11 @@
+.footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+    padding:20px 0;
+    font: 400 1rem "sans-sarif";
+    letter-spacing: 3px;
+}

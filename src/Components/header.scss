@@ -1,0 +1,49 @@
+$bg:rgb(0,0,0);
+
+.header{
+    height: 70px;
+    background-color:$bg;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    box-sizing: border-box;
+justify-content: space-between;
+
+  >a{
+    .logo{
+        width: 100px;
+        height: 60px;
+        object-fit: contain;
+    }
+  }
+
+   
+   
+   
+
+
+    >div{
+        width: 100%;
+        margin-left: 60px;
+
+        >{
+            margin-left: 20px;
+        }
+    }
+
+    >svg{
+        color: white;
+        font-size: 2rem;
+        cursor: pointer;
+    
+        &:hover{
+            color: gray;
+        }
+}
+
+}
+
+
+
+    
+
