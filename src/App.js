@@ -1,6 +1,5 @@
 import './App.scss';
 import React from 'react';
-import { useEffect } from 'react';
 import Home from './Components/Home';
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 import Header from './Components/Header';
@@ -9,30 +8,12 @@ import Recent from './Components/Recent';
 import Mylist from './Components/Mylist';
 import Tvshow from './Components/Tvshow';
 import Footer from './Footer';
-import axios from 'axios';
 function App() {
-// const datafetching= async()=>{
-//   const data= await axios.get("https://api.themoviedb.org/3/movie/upcoming?api_key=c302eb909a97c0e74c6cc6f80326cac3");
-//   console.log(data)
-//   const result=await data.results;
-//   console.log(result);
-
-// }
-
-// useEffect(() => {
-
-// datafetching();
-  
-// })
 
 
   return (
   <>
 
-
-  
-
-  
     
    <Router>
 <Header/>
